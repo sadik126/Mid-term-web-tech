@@ -12,7 +12,7 @@
       
 
 
-   
+   if(isset($_POST['submit'])){
       
         if (empty($_POST["pass"])) 
         {
@@ -54,7 +54,7 @@
         if($_POST['npass'] != $_POST['nwpass']) {
     echo "is not matched";
 } else {
-  echo "is not matched";
+  echo "";
     
 }
 
@@ -63,6 +63,7 @@
 } else {
   echo "";
     
+}
 }
         
     
